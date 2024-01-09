@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="270dp"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textColor="#f54453"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:text="Xem Chi Tiết"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/ivAllMapm"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:textColor="#33FFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a" />
+
+    <TextView
+        android:id="@+id/ivAllMatv"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a" />
+
+    <TextView
+        android:id="@+id/ivAllTentv"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a" />
+
+    <TextView
+        android:id="@+id/ivAllMatt"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a" />
+
+    <TextView
+        android:id="@+id/ivAllTentt"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a" />
+
+    <TextView
+        android:id="@+id/ivAllMaSach"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a" />
+
+    <TextView
+        android:id="@+id/ivAllTenSach"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a" />
+
+    <TextView
+        android:id="@+id/ivAllNgay"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a" />
+    <TextView
+        android:id="@+id/ivAllTrangthai"
+        android:textColor="#f433"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a" />
+    <TextView
+        android:id="@+id/ivAllGia"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a" />
+
+</LinearLayout>
+
+</LinearLayout>

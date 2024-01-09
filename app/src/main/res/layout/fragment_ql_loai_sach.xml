@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/anh2"
+    tools:context=".fragment.QlLoaiSachFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Thêm Loại Sách Mới"
+        android:textColor="#ff4343"
+        android:textSize="24sp"
+
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edLoaiSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập Loại Sách Mới" />
+
+    <EditText
+        android:id="@+id/edTacGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập Vào Tên Tác Giả" />
+
+    <Button
+        android:id="@+id/btnNhapSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Mới" />
+
+    <Button
+        android:id="@+id/btnSuaSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#99FFFF"
+        android:text="Sửa Danh Sách" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Danh Sách Các Loại Sách"
+        android:textColor="#43FF62"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewQLLoaiSach"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

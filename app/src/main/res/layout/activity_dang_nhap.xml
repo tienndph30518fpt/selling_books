@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    android:background="@drawable/lenduanmau"
+    tools:context=".DangNhap_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Đăng Nhập"
+            android:textSize="30dp"
+            android:textColor="#ff22"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+
+
+        <ImageView
+            android:src="@drawable/fpt"
+            android:layout_width="380dp"
+            android:layout_height="200dp"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtUser"
+                android:textColor="#ffff"
+                android:layout_width="match_parent"
+                android:hint="Nhập Tài Khoản"
+                android:maxLength="15"
+                android:maxLines="1"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toStartOf="@id/imgPassword"
+                    android:layout_toLeftOf="@id/imgPassword"
+                    android:textColor="#ffff"
+                    android:hint="Nhập Mật Khẩu"
+                    android:inputType="textPassword"
+                    android:maxLength="15"
+                    android:maxLines="1" />
+
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <ImageView
+                android:id="@+id/imgPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:padding="8dp"
+                android:src="@drawable/vv" />
+        </RelativeLayout>
+
+
+        <CheckBox
+            android:id="@+id/idCheckBook"
+            android:layout_marginTop="20dp"
+            android:text="Lưu Mật Khẩu"
+            android:textColor="#ffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_marginRight="30dp"
+                android:id="@+id/btnDangNhap"
+                android:text="Đăng Nhập"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btnHuyDN"
+                android:text="Huỷ"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

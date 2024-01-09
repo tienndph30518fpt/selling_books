@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:layout_height="300dp">
+<TextView
+    android:layout_width="match_parent"
+    android:text="Đổi Mật Khẩu"
+    android:textColor="#ff54"
+    android:gravity="center"
+    android:textSize="25dp"
+    android:textStyle="bold"
+    android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtNhapMatKhauCu"
+        android:hint="Nhập Mật Khẩu cũ"
+        android:inputType="textPassword"
+        android:maxLength="15"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtNhapMatKhauMoi"
+        android:hint="Nhập Mật Khẩu Mới"
+        android:inputType="textPassword"
+        android:maxLength="15"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtNhapLaiMatKhauMoi"
+        android:hint="Nhập Lại Mật Khẩu Mới"
+        android:inputType="textPassword"
+        android:maxLength="15"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

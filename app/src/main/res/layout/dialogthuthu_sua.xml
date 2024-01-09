@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:orientation="vertical"
+    android:layout_height="100dp">
+<TextView
+    android:text="Sửa Tên Thủ Thư"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textSize="24sp"
+    android:textColor="#f32332"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edSuatenthu"
+        android:hint="Nhập vào tên Thủ thư"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edSuamatkhau"
+        android:hint="Nhập vào mật khẩu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

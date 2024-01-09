@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/anh3"
+    tools:context=".fragment.ThongKeDoanhThu_Fragment">
+
+
+    <TextView
+        android:textColor="#ff32"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thống Kê Bắt Đầu Từ" />
+    <EditText
+        android:id="@+id/edNgayBatDau"
+        android:layout_width="match_parent"
+        android:hint="Ngày Bắt Đầu"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="#ff32"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thống Kê kết Thúc Ngày" />
+    <EditText
+        android:id="@+id/edNgayKetThuc"
+        android:layout_width="match_parent"
+        android:hint="Ngày Kết Thúc"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnThongKe"
+        android:layout_width="match_parent"
+        android:text="Thống Kê"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="#FF3366"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:id="@+id/tvKetQua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

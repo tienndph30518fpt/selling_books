@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+       android:layout_gravity="center"
+        android:textColor="#69FF33"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="Thêm Loại Sách"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtTenSach"
+        android:hint="Nhập Vào Tên Sách"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:maxLength="15"
+        />
+
+    <EditText
+        android:id="@+id/edtTien"
+        android:hint="Nhập Vào Giá Tiền"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:digits="0123456789"/>
+    <EditText
+        android:id="@+id/edtTrangSach"
+        android:hint="Nhập Vào trang Sách"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:digits="0123456789"/>
+    <Spinner
+        android:id="@+id/spnLoaiSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
